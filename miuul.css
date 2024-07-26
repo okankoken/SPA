@@ -1,0 +1,145 @@
+:root{
+    --bg_color: #00ccff;
+    --color:white;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    background-color: var(--bg_color);
+    color:var(--color);
+}
+
+p {
+    text-align: justify;
+    padding: 0.7rem 1.1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1.1rem auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+.line_clamp5{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.line_clamp10{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.line_clamp15{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+
+
+#spa_header_id{
+    background-image: url('./img/1.png');
+    background-size: cover;
+    background-position: 49% 49%;
+    z-index: -1;
+    height: 92vh;
+    text-align: center;
+}
+
+#spa_header_h1_id{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: var(--color);
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.9);
+}
+
+#spa_header_parag_id{
+    text-align: center;
+}
+
+
+.spa_header_icon{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 4%;
+    border: 0.2rem solid var(--color);
+    border: 1px solid rgba(0, 0, 0.9);
+}
+
+#Linkedin_id{
+    color: rgb(0, 110, 255);    
+}
+
+#youtube_id{
+    color: red;    
+}
+
+#github_id{
+    color: rgb(40, 39, 37);
+    }
+
+#back_to_top_id{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: yellow;
+    background-color: rgb(0, 0, 0);
+    width: 2rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+   
+}
+
+#back_to_top_id:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+#spa_footer_id{
+    background-color: var(--bg_color);
+    color: var(--color);
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
